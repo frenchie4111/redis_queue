@@ -1,0 +1,28 @@
+{
+  "name": "redis_queue",
+  "version": "1.0.0",
+  "description": "Nodejs redis queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frenchie4111/redis_queue.git"
+  },
+  "keywords": [
+    "redis",
+    "queue"
+  ],
+  "author": "Michael Lyons <mdl0394@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frenchie4111/redis_queue/issues"
+  },
+  "homepage": "https://github.com/frenchie4111/redis_queue",
+  "dependencies": {
+    "q": "^1.1.2",
+    "redis": "^0.12.1",
+    "underscore": "^1.7.0"
+  }
+}
